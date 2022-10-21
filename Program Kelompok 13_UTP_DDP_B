@@ -186,7 +186,8 @@ int program(){
 				h1 = 14;
 				break;			
 			default:
-				(pilihan1 = " Maaf Pilihan Anda Tidak Tersedia");
+				cout<<" Maaf Pilihan Anda Tidak Tersedia" <<endl;
+				goto awal;
 		}
 		
 		
@@ -252,7 +253,8 @@ int program(){
 				h2 = 14;
 				break;			
 			default:
-				( pilihan2 = "Maaf Pilihan Anda Tidak Tersedia" );				
+				cout<<" Maaf Pilihan Anda Tidak Tersedia" <<endl;
+				goto awal;
 		}
 		
 		
@@ -318,7 +320,8 @@ int program(){
 				h3 = 14;
 				break;			
 			default:
-				(pilihan3 = "Maaf Pilihan Anda Tidak Tersedia");
+				cout<<" Maaf Pilihan Anda Tidak Tersedia" <<endl;
+				goto awal;
 		}
 			
 			
